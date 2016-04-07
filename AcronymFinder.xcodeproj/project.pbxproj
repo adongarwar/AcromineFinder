@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385FC5E0524CE5B1E2792DC6 /* Pods_AcronymFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DAAF8D9DF9651BF5008529 /* Pods_AcronymFinder.framework */; };
+		68A9AAB51CB64CDA0051B4F2 /* AMVariationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9AAB41CB64CDA0051B4F2 /* AMVariationTableViewController.m */; };
 		68D2111A1CB5BE2F004E2022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D211191CB5BE2F004E2022 /* main.m */; };
 		68D2111D1CB5BE2F004E2022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2111C1CB5BE2F004E2022 /* AppDelegate.m */; };
-		68D211201CB5BE2F004E2022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2111F1CB5BE2F004E2022 /* ViewController.m */; };
 		68D211231CB5BE2F004E2022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D211211CB5BE2F004E2022 /* Main.storyboard */; };
 		68D211251CB5BE2F004E2022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D211241CB5BE2F004E2022 /* Assets.xcassets */; };
 		68D211281CB5BE2F004E2022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D211261CB5BE2F004E2022 /* LaunchScreen.storyboard */; };
 		68D211331CB5BE2F004E2022 /* AcronymFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D211321CB5BE2F004E2022 /* AcronymFinderTests.m */; };
+		68D211401CB5BF90004E2022 /* AMWSGetAcromines.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2113F1CB5BF90004E2022 /* AMWSGetAcromines.m */; };
+		68D211501CB5F64E004E2022 /* AMNetworkingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2114F1CB5F64E004E2022 /* AMNetworkingClient.m */; };
+		68D211531CB5FAF2004E2022 /* AMAcromines.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D211521CB5FAF2004E2022 /* AMAcromines.m */; };
+		68D211571CB62C83004E2022 /* AMLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D211561CB62C83004E2022 /* AMLBaseTableViewController.m */; };
+		68D211641CB63139004E2022 /* AMLongFormTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D211621CB63139004E2022 /* AMLongFormTableCell.m */; };
+		68D211651CB63139004E2022 /* AMLongFormTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D211631CB63139004E2022 /* AMLongFormTableCell.xib */; };
+		68D2116B1CB63807004E2022 /* AMAcromineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D2116A1CB63807004E2022 /* AMAcromineTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49E017C9750C05A586FB7C58 /* Pods-AcronymFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		68A9AAB31CB64CDA0051B4F2 /* AMVariationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMVariationTableViewController.h; path = Classes/AMVariationTableViewController.h; sourceTree = "<group>"; };
+		68A9AAB41CB64CDA0051B4F2 /* AMVariationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMVariationTableViewController.m; path = Classes/AMVariationTableViewController.m; sourceTree = "<group>"; };
 		68D211151CB5BE2F004E2022 /* AcronymFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcronymFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D211191CB5BE2F004E2022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68D2111B1CB5BE2F004E2022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68D2111C1CB5BE2F004E2022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68D2111E1CB5BE2F004E2022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68D2111F1CB5BE2F004E2022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		68D211221CB5BE2F004E2022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68D211241CB5BE2F004E2022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D211271CB5BE2F004E2022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +49,21 @@
 		68D2112E1CB5BE2F004E2022 /* AcronymFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronymFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D211321CB5BE2F004E2022 /* AcronymFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymFinderTests.m; sourceTree = "<group>"; };
 		68D211341CB5BE2F004E2022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D2113E1CB5BF90004E2022 /* AMWSGetAcromines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMWSGetAcromines.h; path = Networking/AMWSGetAcromines.h; sourceTree = "<group>"; };
+		68D2113F1CB5BF90004E2022 /* AMWSGetAcromines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMWSGetAcromines.m; path = Networking/AMWSGetAcromines.m; sourceTree = "<group>"; };
+		68D2114E1CB5F64E004E2022 /* AMNetworkingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMNetworkingClient.h; path = Networking/AMNetworkingClient.h; sourceTree = "<group>"; };
+		68D2114F1CB5F64E004E2022 /* AMNetworkingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMNetworkingClient.m; path = Networking/AMNetworkingClient.m; sourceTree = "<group>"; };
+		68D211511CB5FAF2004E2022 /* AMAcromines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAcromines.h; path = Models/AMAcromines.h; sourceTree = "<group>"; };
+		68D211521CB5FAF2004E2022 /* AMAcromines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAcromines.m; path = Models/AMAcromines.m; sourceTree = "<group>"; };
+		68D211551CB62C83004E2022 /* AMLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMLBaseTableViewController.h; path = Classes/AMLBaseTableViewController.h; sourceTree = "<group>"; };
+		68D211561CB62C83004E2022 /* AMLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMLBaseTableViewController.m; path = Classes/AMLBaseTableViewController.m; sourceTree = "<group>"; };
+		68D211611CB63139004E2022 /* AMLongFormTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMLongFormTableCell.h; path = Classes/AMLongFormTableCell.h; sourceTree = "<group>"; };
+		68D211621CB63139004E2022 /* AMLongFormTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMLongFormTableCell.m; path = Classes/AMLongFormTableCell.m; sourceTree = "<group>"; };
+		68D211631CB63139004E2022 /* AMLongFormTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AMLongFormTableCell.xib; path = Classes/AMLongFormTableCell.xib; sourceTree = "<group>"; };
+		68D211691CB63807004E2022 /* AMAcromineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAcromineTableViewController.h; path = Classes/AMAcromineTableViewController.h; sourceTree = "<group>"; };
+		68D2116A1CB63807004E2022 /* AMAcromineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAcromineTableViewController.m; path = Classes/AMAcromineTableViewController.m; sourceTree = "<group>"; };
+		8F2203CEFFFED58E68BFC39D /* Pods-AcronymFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.release.xcconfig"; sourceTree = "<group>"; };
+		C7DAAF8D9DF9651BF5008529 /* Pods_AcronymFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcronymFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385FC5E0524CE5B1E2792DC6 /* Pods_AcronymFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68BB76341CB6571200243DAB /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				68D211611CB63139004E2022 /* AMLongFormTableCell.h */,
+				68D211621CB63139004E2022 /* AMLongFormTableCell.m */,
+				68D211631CB63139004E2022 /* AMLongFormTableCell.xib */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		68BB76351CB6573600243DAB /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				68D2113E1CB5BF90004E2022 /* AMWSGetAcromines.h */,
+				68D2113F1CB5BF90004E2022 /* AMWSGetAcromines.m */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
 		68D2110C1CB5BE2F004E2022 = {
 			isa = PBXGroup;
 			children = (
 				68D211171CB5BE2F004E2022 /* AcronymFinder */,
 				68D211311CB5BE2F004E2022 /* AcronymFinderTests */,
 				68D211161CB5BE2F004E2022 /* Products */,
+				A364412DC338F4F8F396983D /* Pods */,
+				B39846C959B12D445F0295FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +127,12 @@
 		68D211171CB5BE2F004E2022 /* AcronymFinder */ = {
 			isa = PBXGroup;
 			children = (
+				68BB76351CB6573600243DAB /* Web Services */,
+				68D211541CB62B9B004E2022 /* Classes */,
+				68D211411CB5CAD6004E2022 /* Models */,
+				68D2113D1CB5BF54004E2022 /* Networking */,
 				68D2111B1CB5BE2F004E2022 /* AppDelegate.h */,
 				68D2111C1CB5BE2F004E2022 /* AppDelegate.m */,
-				68D2111E1CB5BE2F004E2022 /* ViewController.h */,
-				68D2111F1CB5BE2F004E2022 /* ViewController.m */,
 				68D211211CB5BE2F004E2022 /* Main.storyboard */,
 				68D211241CB5BE2F004E2022 /* Assets.xcassets */,
 				68D211261CB5BE2F004E2022 /* LaunchScreen.storyboard */,
@@ -111,6 +159,55 @@
 			path = AcronymFinderTests;
 			sourceTree = "<group>";
 		};
+		68D2113D1CB5BF54004E2022 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				68D2114E1CB5F64E004E2022 /* AMNetworkingClient.h */,
+				68D2114F1CB5F64E004E2022 /* AMNetworkingClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		68D211411CB5CAD6004E2022 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D211511CB5FAF2004E2022 /* AMAcromines.h */,
+				68D211521CB5FAF2004E2022 /* AMAcromines.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		68D211541CB62B9B004E2022 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68BB76341CB6571200243DAB /* Table Cells */,
+				68D211551CB62C83004E2022 /* AMLBaseTableViewController.h */,
+				68D211561CB62C83004E2022 /* AMLBaseTableViewController.m */,
+				68D211691CB63807004E2022 /* AMAcromineTableViewController.h */,
+				68D2116A1CB63807004E2022 /* AMAcromineTableViewController.m */,
+				68A9AAB31CB64CDA0051B4F2 /* AMVariationTableViewController.h */,
+				68A9AAB41CB64CDA0051B4F2 /* AMVariationTableViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A364412DC338F4F8F396983D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49E017C9750C05A586FB7C58 /* Pods-AcronymFinder.debug.xcconfig */,
+				8F2203CEFFFED58E68BFC39D /* Pods-AcronymFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39846C959B12D445F0295FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7DAAF8D9DF9651BF5008529 /* Pods_AcronymFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68D211371CB5BE2F004E2022 /* Build configuration list for PBXNativeTarget "AcronymFinder" */;
 			buildPhases = (
+				53343A85EAA8569A08142F14 /* Check Pods Manifest.lock */,
 				68D211111CB5BE2F004E2022 /* Sources */,
 				68D211121CB5BE2F004E2022 /* Frameworks */,
 				68D211131CB5BE2F004E2022 /* Resources */,
+				F447F12117E02A26BAEA212A /* Embed Pods Frameworks */,
+				06BC93C0E4FDF8268586FC1A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +293,7 @@
 			files = (
 				68D211281CB5BE2F004E2022 /* LaunchScreen.storyboard in Resources */,
 				68D211251CB5BE2F004E2022 /* Assets.xcassets in Resources */,
+				68D211651CB63139004E2022 /* AMLongFormTableCell.xib in Resources */,
 				68D211231CB5BE2F004E2022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,13 +307,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06BC93C0E4FDF8268586FC1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53343A85EAA8569A08142F14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F447F12117E02A26BAEA212A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68D211111CB5BE2F004E2022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D211201CB5BE2F004E2022 /* ViewController.m in Sources */,
+				68D211531CB5FAF2004E2022 /* AMAcromines.m in Sources */,
 				68D2111D1CB5BE2F004E2022 /* AppDelegate.m in Sources */,
+				68D211641CB63139004E2022 /* AMLongFormTableCell.m in Sources */,
+				68D211501CB5F64E004E2022 /* AMNetworkingClient.m in Sources */,
+				68D211571CB62C83004E2022 /* AMLBaseTableViewController.m in Sources */,
+				68D2116B1CB63807004E2022 /* AMAcromineTableViewController.m in Sources */,
+				68D211401CB5BF90004E2022 /* AMWSGetAcromines.m in Sources */,
+				68A9AAB51CB64CDA0051B4F2 /* AMVariationTableViewController.m in Sources */,
 				68D2111A1CB5BE2F004E2022 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +494,7 @@
 		};
 		68D211381CB5BE2F004E2022 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E017C9750C05A586FB7C58 /* Pods-AcronymFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymFinder/Info.plist;
@@ -350,6 +506,7 @@
 		};
 		68D211391CB5BE2F004E2022 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2203CEFFFED58E68BFC39D /* Pods-AcronymFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymFinder/Info.plist;
@@ -402,6 +559,7 @@
 				68D211391CB5BE2F004E2022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68D2113A1CB5BE2F004E2022 /* Build configuration list for PBXNativeTarget "AcronymFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +568,7 @@
 				68D2113C1CB5BE2F004E2022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
